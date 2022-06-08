@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+
+        p {
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 700;
+        }
+
+        button {
+            background-color: #9035e6;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 700;
+            border: none;
+            color: white;
+            padding: 10px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 13px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        button.yes {
+            background-color: #2ca93f;
+        }
+
+        button.no {
+            background-color: #e63535;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+
+        button:active {
+            background-color: #757575;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="count.html">Count</a></li>
+    </ul>
+    <h1>Count!</h1>
+    <main>
+        <div class="container">
+          <h1>counter</h1>
+          <span id="value">0</span>
+          <div class="button-container">
+            <button class="btn decrease">decrease</button>
+            <button class="btn reset">reset</button>
+            <button class="btn increase">increase</button>
+          </div>
+        </div>
+    </main>
+</body>
+</html>
