@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mrs M</title>
+    <script src="js/index.js"></script> 
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #YesNo {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mrsm.html">H</a></li>
+            <li><a href="count.html">Count</a></li>
+        </ul>
+    </nav>
+    <header id="showcase2">
+        <h1 class="head2">Mrs MacDonald</h1>
+        <p class="p2">Old Test</p>
+        <a href="#mrs" class="button">Test It!</a>
+    </header>
+    <div id="mrs">
+        <h3 id="noti"></h3>
+
+        <button onclick="ageFind()">Is Mrs M old?</button><br><br>
+    
+        <div id="YesNo">
+            <button onclick="ageYes()" class="yes">Yes</button>
+            <button onclick="ageNo()" class="no">No</button><br>
+            <p id="AgeTitle"></p>
+            <p id="AgeQuestion">Press the button!</p>
+        </div>
+    
+        <hr />
+    
+        <button onclick="ranAge()">Mrs Macdonalds Age</button><br>
+    
+        <p id="ranagetitle"></p>
+        <p id="ranage"></p>
+    </div>
+    <div class="foot">
+        <h2>This Is a Footer!</h2>
+        <p>Yeah Sam</p>
+        <hr />
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Support</a> 
+    </div>
+</body>
+</html>

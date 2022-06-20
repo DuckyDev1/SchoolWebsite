@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(16, 16, 16);
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#sep {
+    height: 15vh;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px;
+    text-align: center;
+}
+
+#container a.button {
+    background-color: #a2a2a2; /* Green */
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    border: none;
+    color: #ffffff;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#container a.button:hover {
+    transform: scale(1.05);
+}
+
+#design {
+    background-image: url("../img/design.jpg");
+    height: 65vh;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    text-align: center;
+}
+
+#design a.button {
+    background-color: rgb(51, 93, 123);
+    color: rgb(255, 255, 255);
+}
+
+#code {
+    background-image: url("../img/code.jpg");
+    height: 65vh;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    text-align: center;
+}
+
+#code a.button {
+    background-color: rgb(230, 18, 149);
+    color: rgb(255, 255, 255);
+}
+
+#arch {
+    background-image: url("../img/arch.jpg");
+    height: 65vh;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    text-align: center;
+}
+
+#arch a.button {
+    background-color: rgb(230, 184, 18);
+    color: black;
+}
+
+#arch h1 {
+    color: black;
+}
+
+#showcase {
+    background-image: url("../img/showcase.jpg");
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    text-align: center;
+}
+
+#showcase a.button {
+    background-color: #76d72b; /* Green */
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    border: none;
+    color: #000000;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#showcase a.button:hover {
+    transform: scale(1.05);
+}
+
+#showcase a.button:active {
+    background-color: #979797;
+}
+
+
+
+
+
+#showcase2 {
+    background-image: url("../img/mrsm.jpg");
+    height: 70vh;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    text-align: center;
+}
+
+#showcase2 a.button {
+    background-color: #2fa678; /* Green */
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    border: none;
+    color: #ffffff;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#showcase2 a.button:hover {
+    transform: scale(1.05);
+}
+
+#showcase2 a.button:active {
+    background-color: #979797;
+}
+
+.nav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+.nav ul{
+    text-align: center;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.nav ul li:hover {
+    background-color: #199b26a4;
+    border-radius: 10px;
+}
+
+.nav ul li:active {
+    background-color: #76767678;
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+}
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(39, 195, 33);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(37, 37, 37);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(51, 51, 51); 
+    border-radius: 10px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: #199b26; 
+}
+
+button {
+    background-color: #9035e6; /* Green */
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #979797;
+}
+
+button.yes {
+    background-color: #2ca93f;
+}
+
+button.no {
+    background-color: #e63535;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    color: red;
+}
+
+
+
+hr {
+    border: 2px solid rgb(32, 32, 32);
+    border-radius: 5px;
+    width: 100%;
+}
+
+p#ranage {
+    font-weight: bold;
+    color: #a55de9;
+    font-size: 30px;
+}
+
+#mrs {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.foot {
+    height: 30vh;
+    background-color: #121212;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
